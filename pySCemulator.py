@@ -141,7 +141,7 @@ class Emulator:
 # Main function to load and run the emulator
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python pySCemulator.py <binary_file> <memory_size>")
+        print("Usage: py pySCemulator.py <binary_file> <memory_size>")
         sys.exit(1)
 
     binary_file = sys.argv[1]
